@@ -7,15 +7,15 @@ let logoColor;
 let dvd = {
     x: 200,
     y: 300,
-    xspeed: 10,
-    yspeed: 10,
+    xspeed: 5,
+    yspeed: 5,
     img: new Image()
 };
 
 (function main(){
     canvas = document.getElementById("tv-screen");
     ctx = canvas.getContext("2d");
-    dvd.img.src = 'dvd-logo.png';
+    dvd.img.src = 'cap.gif';
 
     //Draw the "tv screen"
     canvas.width  = window.innerWidth;
